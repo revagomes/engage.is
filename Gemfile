@@ -41,13 +41,13 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'machinist'
   gem 'database_cleaner'
-  gem 'capybara'
+  gem 'capybara', '>= 2.0.2'
   gem 'pry'
   gem 'awesome_print'
 end
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
 	gem 'binding_of_caller'
   gem 'quiet_assets'
 end
