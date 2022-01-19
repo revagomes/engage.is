@@ -20,7 +20,7 @@ gem 'high_voltage'
 # Frontend stuff
 gem 'jquery-rails'
 gem 'slim-rails'
-gem 'initjs'
+gem 'initjs', '>= 1.0.0'
 gem 'flutie'
 gem 'rack-google-analytics'
 
