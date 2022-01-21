@@ -41,7 +41,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'machinist'
   gem 'database_cleaner'
-  gem 'capybara'
+  gem 'capybara', '>= 2.0.2'
   gem 'pry'
   gem 'awesome_print'
 end
