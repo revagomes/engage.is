@@ -26,7 +26,7 @@ gem 'rack-google-analytics'
 
 # Uploads and Images
 gem 'carrierwave'
-gem 'rmagick'
+gem 'rmagick', '>= 5.3.0'
 
 group :assets do
   gem 'sass-rails', '4.0.0.beta1'
