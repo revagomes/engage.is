@@ -25,7 +25,7 @@ gem 'flutie'
 gem 'rack-google-analytics'
 
 # Uploads and Images
-gem 'carrierwave'
+gem 'carrierwave', '>= 2.2.5'
 gem 'rmagick'
 
 group :assets do
