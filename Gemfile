@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0.beta1'
+gem 'rails', '7.1.5.2'
 
 # Database
 gem 'pg'
-gem 'foreigner'
+gem 'foreigner', '>= 1.4.1'
 
 # Server
 gem 'thin'
@@ -20,7 +20,7 @@ gem 'high_voltage'
 # Frontend stuff
 gem 'jquery-rails'
 gem 'slim-rails'
-gem 'initjs'
+gem 'initjs', '>= 1.0.1'
 gem 'flutie'
 gem 'rack-google-analytics'
 
