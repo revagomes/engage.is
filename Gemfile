@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0.beta1'
+gem 'rails', '5.0.0'
 
 # Database
 gem 'pg'
 gem 'foreigner'
 
 # Server
-gem 'thin'
+gem 'thin', '>= 1.5.1'
 
 # Improvements
 gem 'inherited_resources'
@@ -18,9 +18,9 @@ gem 'high_voltage'
 #gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
 
 # Frontend stuff
-gem 'jquery-rails'
-gem 'slim-rails'
-gem 'initjs'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'slim-rails', '>= 3.1.0'
+gem 'initjs', '>= 1.0.1'
 gem 'flutie'
 gem 'rack-google-analytics'
 
@@ -29,19 +29,19 @@ gem 'carrierwave'
 gem 'rmagick'
 
 group :assets do
-  gem 'sass-rails', '4.0.0.beta1'
-  gem 'coffee-rails', '4.0.0.beta1'
+  gem 'sass-rails', '5.0.5'
+  gem 'coffee-rails', '4.1.1'
   gem 'compass-rails'
   gem 'uglifier'
-	gem 'turbolinks'
+	gem 'turbolinks', '>= 1.1.0'
 end
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.13.1'
   gem 'shoulda-matchers'
   gem 'machinist'
   gem 'database_cleaner'
-  gem 'capybara'
+  gem 'capybara', '>= 2.0.3'
   gem 'pry'
   gem 'awesome_print'
 end
@@ -49,5 +49,5 @@ end
 group :development do
   gem 'better_errors'
 	gem 'binding_of_caller'
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.0.3'
 end
